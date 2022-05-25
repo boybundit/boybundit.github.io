@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "PAGE TITLE"
+layout: default
+title: "Test"
 permalink: /test
 ---
 
-This is a test
+# This is a test
