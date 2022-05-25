@@ -1,8 +1,16 @@
 ---
 layout: default
+title: "This is a page title"
+description: "This is a page description"
 permalink: /test
-title: This is a page title
-description: This is a page description
+
 ---
 
 # This is a test
+Test
+
+## Header 2
+Test
+
+### Header 3
+Test
