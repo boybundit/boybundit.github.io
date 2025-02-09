@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9353815450697797"
-     crossorigin="anonymous"></script>
