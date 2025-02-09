@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "แปลเพลง 第二杯半价"
+slug: milk-tea-second-glass-half-price
 date: 2025-02-09 10:24:00 +0700
 categories: chinese
 ---
