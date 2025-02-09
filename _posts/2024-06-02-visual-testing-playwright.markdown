@@ -26,7 +26,7 @@ test('visual test', async ({ page }) => {
 
 ถ้าเรามี figma อยู่แล้ว ก็ export มาใส่ไว้ใน folder
 
-![image](/assets/2024-06-02-visual-testing-playwright/snapshots.png){: .align-center}
+![image](/assets/images/2024-06-02-visual-testing-playwright/snapshots.png){: .align-center}
 
 หรือถ้ายังไม่มีรูป ก็สั่งให้ capture รูปปัจจุบันไว้ให้ได้โดยสั่ง
 
@@ -46,7 +46,7 @@ npx playwright test
 npx playwright show-report
 ```
 
-![image](/assets/2024-06-02-visual-testing-playwright/diff.png){: .align-center}
+![image](/assets/images/2024-06-02-visual-testing-playwright/diff.png){: .align-center}
 
 ไปลองใช้กันดูครับ 🚀
 
