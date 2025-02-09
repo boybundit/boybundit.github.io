@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com 
 linkedin_username: boybundit
 github_username: boybundit
-permalink: /:title
+permalink: /:title/
 google_analytics: G-CSXCJBB6Q0
 show_excerpts: false
 
