@@ -34,8 +34,8 @@ image: /assets/images/2025-02-10-multiple-canonical-models/bounded-contexts.jpg
 
 พอเรียกชื่อให้ต่างกันตาม domain แบบนี้แล้ว มันชัดเจนดีว่าจริงๆมันไม่ใช่ของอย่างเดียวกันขนาดนั้นนี่นา
 
-ลุง Martin แกแนะนำไว้ว่า Single Canonical Model ไม่น่าเวิก เรามาทำ Multiple Canonical Models กันน่าจะดีกว่า
+ลุง Martin แกแนะนำไว้ว่า Single Canonical Model นั้นไม่น่าเวิก เรามาทำ Multiple Canonical Models กันน่าจะดีกว่า
 
 อ่านเพิ่มเติมได้ที่ blog ของลุงแกครับ
-
-<https://martinfowler.com/bliki/BoundedContext.html>
+- <https://martinfowler.com/bliki/BoundedContext.html>
+- <https://martinfowler.com/bliki/MultipleCanonicalModels.html>
