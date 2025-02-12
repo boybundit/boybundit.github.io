@@ -64,34 +64,36 @@ I just want to make you happy
 不是 假的 假的 好想你  
 好想你 好想你 好想你 好想你  
 是 够力 够力 好想你  
-真的 西北 西北 好想你   
-好想你
+真的 西北 西北 好想你
 
 (**) hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ  
 shì zhēn de zhēn de hǎo xiǎng nǐ  
 bú shì jiǎ de jiǎ de hǎo xiǎng nǐ  
 hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ  
 shì gòu lì gòu lì hǎo xiǎng nǐ  
-zhēn de xī běi xī běi hǎo xiǎng nǐ  
-hǎo xiǎng nǐ
+zhēn de xī běi xī běi hǎo xiǎng nǐ
 
 (**) I miss you so much  
 I miss you so much  
 Not fake fake miss you so much  
 I miss you so much  
 I miss you enough  
-I miss you so much  
-i miss you
+I miss you so much
 
-(*)
+好想你
 
-(**)
+hǎo xiǎng nǐ
 
+ฉันคิดถึงเธอ
+
+(*), (**), (**)
+
+好想你  
 好想你  
 好想你
 
 hǎo xiǎng nǐ  
-hǎo xiǎng nǐ
+hǎo xiǎng nǐ  
 
 ฉันคิดถึงเธอ  
-ฉันคิดถึงเธอ
+ฉันคิดถึงเธอ  
