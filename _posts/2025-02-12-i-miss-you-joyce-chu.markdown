@@ -1,10 +1,10 @@
 ---
 layout: post
 title: แปลเพลง 好想你
-slug: missing-you
+slug: i-miss-you-joyce-chu
 date: 2025-02-12 12:56:00 +0700
 categories: chinese
-image: /assets/images/2025-02-12-missing-you.markdown/og-image-missing-you.jpg
+image: /assets/images/2025-02-12-i-missing-you-joyce-chu/og-image.jpg
 ---
 
 好想你  
