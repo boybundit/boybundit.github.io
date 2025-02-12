@@ -10,7 +10,8 @@ categories: chinese
 hǎo xiǎng nǐ  
 คิดถึงเธอ
 
-เป็นเพลงคลั่งรัก ที่เนื้อหาไม่มีอะไรเลยนอกจาก คิดถึงเธอ~ 😳
+เป็นเพลงคลั่งรัก ที่เนื้อหาไม่มีอะไรเลยนอกจาก คิดถึงเธอ~ 😳  
+เป็นภาษาจีนแบบมาเลเซีย บางคำจะแปลยากนิดนึงฮะ เพราะไม่ใช่ 普通话
 
 <div style="display: flex; justify-content: center; margin-bottom: 20px">
 <iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube.com/embed/fdQgPu3iUYk?si=FoOJVQILdOhOP7FC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -80,9 +81,11 @@ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ
 shì gòu lì gòu lì hǎo xiǎng nǐ  
 zhēn de xī běi xī běi hǎo xiǎng nǐ
 
-(\*\*) I miss you so much  
-I miss you so much  
-Not fake fake miss you so much  
+(\*\*) ฉันคิดถึงเธอ ฉันคิดถึงเธอ ฉันคิดถึงเธอ
+มันเป็นความคิดถึงเธอมากๆอย่างรุนแรง
+คิดถึงเธอมากสุดๆเลยๆ
+ฉันคิดถึงเธอ ฉันคิดถึงเธอ ฉันคิดถึงเธอ
+
 I miss you so much  
 I miss you enough  
 I miss you so much
