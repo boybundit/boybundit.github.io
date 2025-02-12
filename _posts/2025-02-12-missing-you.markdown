@@ -44,36 +44,41 @@ dōu hǎo xiǎng hǎo xiǎng nǐ
 ไม่ว่าฝนจะตกหรือแดดจะออก  
 ฉันก็คิดทึ้งงง คิดถึงเธอ
 
-(*) 每次当我一说我好想你，你都不相信  
+(\*) 每次当我一说我好想你，你都不相信  
 但却总爱问我有没有想你  
 我不懂得甜言蜜语，所以只说好想你  
 反正说来说去都只想让你开心
 
-(*) měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ，nǐ dōu bù xiāng xìn  
+(\*) měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ，  
+nǐ dōu bù xiāng xìn  
 dàn què zǒng ài wèn wǒ yǒu méi yǒu xiǎng nǐ  
-wǒ bù dǒng dé tián yán mì yǔ，suó yǐ zhǐ shuō hǎo xiǎng nǐ  
-fǎn zhèng shuō lái shuō qù dōu zhǐ xiǎng ràng nǐ kāi xīn 
+wǒ bù dǒng dé tián yán mì yǔ，  
+suó yǐ zhǐ shuō hǎo xiǎng nǐ  
+fǎn zhèng shuō lái shuō qù  
+dōu zhǐ xiǎng ràng nǐ kāi xīn 
 
-(*) ทุกครั้งที่ฉันบอกว่าฉันคิดถึงเธอ เธอก็ไม่เคยเชื่อ  
+(\*) ทุกครั้งที่ฉันบอกว่าฉันคิดถึงเธอ  
+เธอก็ไม่เคยเชื่อ  
 แต่เธอก็ชอบมากถามว่าฉันคิดถึงเธอไหม  
-ฉันไม่รู้จะพูดจาหวานๆยังไง So just say I miss you  
-I just want to make you happy
+ฉันไม่รู้จะพูดจาหวานๆยังไง  
+ก็เลยได้แต่บอกว่า ฉันคิดถึงเธอ  
+ฉันแค่อยากให้เธอมีความสุข
 
-(**) 好想你 好想你 好想你 好想你  
+(\*\*) 好想你 好想你 好想你 好想你  
 是 真的 真的 好想你  
 不是 假的 假的 好想你  
 好想你 好想你 好想你 好想你  
 是 够力 够力 好想你  
 真的 西北 西北 好想你
 
-(**) hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ  
+(\*\*) hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ  
 shì zhēn de zhēn de hǎo xiǎng nǐ  
 bú shì jiǎ de jiǎ de hǎo xiǎng nǐ  
 hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ hǎo xiǎng nǐ  
 shì gòu lì gòu lì hǎo xiǎng nǐ  
 zhēn de xī běi xī běi hǎo xiǎng nǐ
 
-(**) I miss you so much  
+(\*\*) I miss you so much  
 I miss you so much  
 Not fake fake miss you so much  
 I miss you so much  
@@ -86,7 +91,7 @@ hǎo xiǎng nǐ
 
 ฉันคิดถึงเธอ
 
-(*), (**), (**)
+(\*), (\*\*), (\*\*)
 
 好想你  
 好想你  
@@ -94,6 +99,8 @@ hǎo xiǎng nǐ
 
 hǎo xiǎng nǐ  
 hǎo xiǎng nǐ  
+hǎo xiǎng nǐ
 
 ฉันคิดถึงเธอ  
 ฉันคิดถึงเธอ  
+ฉันคิดถึงเธอ
