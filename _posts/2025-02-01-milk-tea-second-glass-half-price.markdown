@@ -13,7 +13,6 @@ dì èr bēi bàn jià
 
 เป็นเพลงน่ารักๆเกี่ยวกับร้านชานมครับ  
 
-
 <div style="display: flex; justify-content: center; margin-bottom: 20px">
   <iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube.com/embed/heg6IYDx2NA?si=ZP_SJYdqvKg6xr9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
