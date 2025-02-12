@@ -1,6 +1,6 @@
 ---
 layout: post
-title: แปลเพลง แก้วที่สองลดครึ่งราคา
+title: แปลเพลง 第二杯半价
 slug: milk-tea-second-glass-half-price
 date: 2025-02-01 +0700
 categories: chinese
