@@ -20,13 +20,13 @@
 
 title: bundit.net
 author: Bundit Jitkongchuen
-email: 
+email: boy@bundit.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Powered by GitHub Pages
+  (,,◕　⋏　◕,,)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com 
+facebook_username: bundit.net
 linkedin_username: boybundit
-github_username: boybundit
 permalink: /:title/
 google_analytics: G-CSXCJBB6Q0
 show_excerpts: false
