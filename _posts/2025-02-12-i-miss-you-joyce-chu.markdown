@@ -4,7 +4,7 @@ title: แปลเพลง 好想你
 slug: i-miss-you-joyce-chu
 date: 2025-02-12 12:56:00 +0700
 categories: chinese
-image: /assets/images/2025-02-12-i-missing-you-joyce-chu/og-image.jpg
+image: /assets/images/2025-02-12-i-miss-you-joyce-chu/og-image.jpg
 ---
 
 好想你  
