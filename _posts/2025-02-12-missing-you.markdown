@@ -4,6 +4,7 @@ title: แปลเพลง 好想你
 slug: missing-you
 date: 2025-02-12 12:56:00 +0700
 categories: chinese
+image: /assets/images/2025-02-12-missing-you.markdown/og-image-missing-you.jpg
 ---
 
 好想你  
