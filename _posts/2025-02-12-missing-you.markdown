@@ -29,31 +29,37 @@ wǒ hǎo xiǎng hǎo xiǎng nǐ
 อยากโทรหาเธอตอนนี้เลย  
 ฉันคิดทึ้งงง คิดถึงเธอ
 
-<!--
-měi tiān qǐ chuáng de dì yí jiàn shì qíng 
-每天 起 床 的 第 一 件 事情
-First thing in the morning
-jiù shì hǎo xiǎng hǎo xiǎng nǐ 
-就是好想好想你
-I just miss you so much
-wú lùn qíng tiān hái shì xià yǔ 
-无 论晴 天 还是下雨 
-Rain or shine
-dōu hǎo xiǎng hǎo xiǎng nǐ 
+每天起床的第一件事情  
+就是好想好想你  
+无论晴天还是下雨  
 都好想好想你 
-I miss you so much
-měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ 
-每次 当 我 一 说 我 好想你 
-Every time when I say I miss you so much
-nǐ dōu bù xiāng xìn 
-你 都不 相信
-You don't believe it
-dàn què zǒng ài wèn wǒ yǒu méi yǒu xiǎng nǐ 
-但却总 爱 问我 有没有想你 
-But always love to ask me have you
+
+měi tiān qǐ chuáng de dì yí jiàn shì qíng  
+jiù shì hǎo xiǎng hǎo xiǎng nǐ  
+wú lùn qíng tiān hái shì xià yǔ  
+dōu hǎo xiǎng hǎo xiǎng nǐ
+
+สืง่แรกที่ทำทุกวันหลังตื่นนอน  
+ก็คือ คิดทึ้งงง คิดถึงเธอ  
+ไม่ว่าฝนจะตกหรือแดดจะออก  
+ฉันก็คิดทึ้งงง คิดถึงเธอ
+
+每次当我一说我好想你  
+你都不相信  
+但却总爱问我有没有想你  
+我不懂得甜言蜜语
+
+měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ  
+nǐ dōu bù xiāng xìn  
+dàn què zǒng ài wèn wǒ yǒu méi yǒu xiǎng nǐ  
 wǒ bù dǒng dé tián yán mì yǔ 
-我 不 懂 得 甜 言蜜 语 
-I don't know how to sweet-talk
+
+ทุกครั้งที่ฉันบอกว่าฉันคิดถึงเธอ  
+เธอก็ไม่เคยเชื่อ  
+แต่เธอก็ชอบมากถามว่าฉันคิดถึงเธอไหม  
+ฉันไม่รู้จะพูดจาหวานๆยังไง
+
+<!--
 suó yǐ zhǐ shuō hǎo xiǎng nǐ 
 所以 只说 好想你 
 So just say I miss you
