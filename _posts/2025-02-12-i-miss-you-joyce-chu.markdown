@@ -11,8 +11,8 @@ image: /assets/images/2025-02-12-i-missing-you-joyce-chu/og-image.jpg
 hǎo xiǎng nǐ  
 คิดถึงเธอ
 
-เป็นเพลงคลั่งรัก ที่เนื้อหาไม่มีอะไรเลยนอกจาก คิดถึงเธอ~ 😳  
-เป็นภาษาจีนแบบมาเลเซีย บางคำจะแปลยากนิดนึงฮะ เพราะไม่ใช่ 普通话
+เป็นภาษาจีนแบบมาเลเซีย บางคำจะแปลยากนิดนึงฮะ
+เพลงน่ารักๆที่เนื้อหาไม่มีอะไรเลยนอกจาก คิดถึงเธอ~ 😳
 
 <div style="display: flex; justify-content: center; margin-bottom: 20px">
 <iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube.com/embed/fdQgPu3iUYk?si=FoOJVQILdOhOP7FC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
