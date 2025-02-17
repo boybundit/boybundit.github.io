@@ -77,14 +77,14 @@ plt.show()
 ![image](/assets/images/2025-02-16-count-unique-views-with-hyperloglog/hll-relative-error.png)
 
 ```python
-plt.figure(figsize=(10, 6))  # Adjust figure size for better visualization
+plt.figure(figsize=(10, 6)) 
 plt.plot(cardinalities, relative_errors, marker='o', linestyle='-')
-plt.xscale('log')  # Use logarithmic scale for x-axis to handle wide range of cardinalities
+plt.xscale('log') 
 plt.xlabel('Cardinality (Log Scale)')
 plt.ylabel('Relative Error')
 plt.title('HyperLogLog Relative Error vs. Cardinality')
 plt.grid(True)
-plt.xticks(cardinalities, [str(c) for c in cardinalities], rotation=45) # Show all cardinality values on x-axis
-plt.tight_layout() # Adjust layout to prevent labels from overlapping
+plt.xticks(cardinalities, [str(c) for c in cardinalities], rotation=45)
+plt.tight_layout() 
 plt.show()
 ```
