@@ -24,7 +24,6 @@ image: /assets/images/2025-02-16-count-unique-views-with-hyperloglog/og-image.pn
 
 ```python
 import redis
-import matplotlib.pyplot as plt
 
 r = redis.Redis(host='localhost', port=6379, db=0)
 
@@ -37,7 +36,7 @@ def test_hll_accuracy(cardinality):
 
     estimated_cardinality = r.pfcount(key)
     absolute_error = abs(estimated_cardinality - cardinality)
-    relative_error = absolute_error / cardinality if cardinality > 0 else 0
+    relative_error = 100 * absolute_error / cardinality if cardinality > 0 else 0
     return estimated_cardinality, relative_error
 
 cardinalities = [1, 5, 10, 50, 100, 500, 1000, 5000, 
@@ -58,6 +57,8 @@ r.delete("hll_test")
 ![image](/assets/images/2025-02-16-count-unique-views-with-hyperloglog/hll-estimated-vs-actual-cardinality.png)
 
 ```python
+import matplotlib.pyplot as plt
+
 plt.figure(figsize=(10, 6))
 plt.plot(cardinalities, estimated_cardinalities, marker='o', linestyle='-', label="Estimated")
 plt.plot(cardinalities, cardinalities, linestyle='--', label="Actual", color='red')
