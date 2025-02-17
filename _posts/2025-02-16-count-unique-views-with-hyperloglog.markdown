@@ -3,6 +3,7 @@ layout: post
 title: นับจำนวน unique views ด้วย HyperLogLog
 slug: count-unique-views-with-hyperloglog
 date: 2025-02-16 15:24:00 +0700
+image: /assets/images/2025-02-16-count-unique-views-with-hyperloglog/og-image.png
 ---
 
 ลองจินตนากาลดูว่า ถ้าเราทำ social media app แล้วอยากโชว์ที่ใต้ viedo ว่ามีจำนวน unique views ที่เข้ามาดูกี่คน เราจะทำยังไง?
