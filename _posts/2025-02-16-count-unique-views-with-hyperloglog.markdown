@@ -6,9 +6,9 @@ date: 2025-02-16 15:24:00 +0700
 image: /assets/images/2025-02-16-count-unique-views-with-hyperloglog/og-image.png
 ---
 
-ลองจินตนากาลดูว่า ถ้าเราทำ social media app แล้วอยากโชว์ที่ใต้ viedo ว่ามีจำนวน unique views ที่เข้ามาดูกี่คน เราจะทำยังไง?
+ลองจินตนากาลดูว่า ถ้าเราทำ social media app แล้วอยากโชว์ที่ใต้ viedo ว่ามีจำนวน unique views ที่เข้ามาดูกี่คน เราจะทำยังไง? โดยที่ user คนหนึ่งอาจจะดูซ้ำได้หลายครั้ง เราต้องไม่นับซ้ำ
 
-ทำแบบง่ายๆได้ด้วยการเก็บทุก record ของ `user_id` ทั้งหมดที่เคยเข้ามาดูเอาไว้ (คนหนึ่งอาจจะดูซ้ำได้หลายครั้ง) อาจจะใช้ relational database ก็ได้ แล้วเราก็แค่ `SELECT DISTINCT COUNT(user_id) FROM views` หรือถ้าเราใช้ Redis เราอาจจะเก็บ `user_id` ลง set แทน แล้วเราก็แค่ `SCARD users_set` ก็จะได้จำนวนของใน set แล้ว แต่ว่าข้อเสียของวิธีง่ายๆแบบนี้ก็คือเปลืองที่ เพราะเราต้องจำ `user_id` ทั้งหมด เพื่อเอาไว้เช็คว่ามันซ้ำไหม ทั้งที่ requirement จริงๆ เราแค่อยากรู้จำนวน unique user views ไม่ได้อยากรู้ว่ามีใครบ้าง
+เราสามารถทำแบบง่ายๆได้ด้วยการเก็บทุก record ของ `user_id` ทั้งหมดที่เคยเข้ามาดูเอาไว้ อาจจะใช้ relational database ก็ได้ แล้วเราก็แค่ `SELECT DISTINCT COUNT(user_id) FROM views` หรือถ้าเราใช้ Redis เราอาจจะเก็บ `user_id` ลง [set](https://redis.io/docs/latest/develop/data-types/sets/) แทน แล้วเราก็แค่ `SCARD users_set` ก็จะได้จำนวนของใน set แล้ว แต่ว่าข้อเสียของวิธีง่ายๆแบบนี้ก็คือเปลืองที่ เพราะเราต้องจำ `user_id` ทั้งหมด เพื่อเอาไว้เช็คว่ามันซ้ำไหม ทั้งที่ requirement จริงๆ เราแค่อยากรู้จำนวน unique user views ไม่ได้อยากรู้ว่ามีใครบ้าง
 
 ถ้าเราลด requirement ของเราลงมาซํกหน่อย เป็นอยากรู้จำนวน unique views คร่าวๆ ไม่ต้องเป๊ะก็ได้ แต่ขอให้ใช้ memory น้อยลงหน่อย เราสามารถใช้สิ่งที่เรียกว่า probabilistic data structure เข้ามาช่วยได้
 
