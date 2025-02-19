@@ -52,7 +52,7 @@ for cardinality in cardinalities:
 r.delete("hll_test")
 ```
 
-เราลอง plot graph ดูจะเห็นว่า estimate ได้ใกล้ค่าจริงมากเวอร์ๅ 😮
+เราลอง plot graph ดูจะเห็นว่า estimate ได้ใกล้ค่าจริงมากเวอร์ 😮
 
 ![image](/assets/images/2025-02-16-count-unique-views-with-hyperloglog/hll-estimated-vs-actual-cardinality.png)
 
