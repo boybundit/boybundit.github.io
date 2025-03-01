@@ -25,7 +25,7 @@ graph LR
 
 ทีนี้จะใช้ regression model อะไรก็แล้วแต่งานละ เช่น ง่ายๆเลยก็ใช้ logistic regression โดยจะมีชื่อเรียกว่า วิธี [Platt Scaling](https://en.wikipedia.org/wiki/Platt_scaling) ซึ่งง่ายดี แต่ข้อเสียคือมันเป็น [parametric model](https://en.wikipedia.org/wiki/Parametric_model) โดยเราต้อง assume ว่า probability curve เรามันหน้าตาเป็น sigmoid function 
 
-ก็เลยมีอีกวิธี คือใช้ [Isotonic Regression](https://en.wikipedia.org/wiki/Isotonic_regression) ที่สามารถ fit กับ probabilty curve หน้าตาหลากหลายกว่า ข้อมูลน้อยๆก็ train ได้ นอกจากนั้นความเท่ก็คือ เนื่องจากมันเป็น monotonic function ดังนั้น ranking ก่อนและหลัง calibrate จะยังเหมือนเดิมเสมอ! เช่น ถ้าก่อน calibrate เรา predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B หลังจาก calibrate แล้วเราจะยังคง predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B แค่ด้วยเลขที่เปลี่ยนไป ซึ่งเป็นคุณสมบัติที่ดีงามมากๆในหลายๆ application
+ก็เลยมีอีกวิธี คือใช้ [Isotonic Regression](https://en.wikipedia.org/wiki/Isotonic_regression) ที่สามารถ fit กับ probabilty curve หน้าตาหลากหลายกว่า ข้อมูลน้อยๆก็ train ได้ นอกจากนั้นความเท่ก็คือ ranking ก่อนและหลัง calibrate จะยังเหมือนเดิมเสมอ! เช่น ถ้าก่อน calibrate เรา predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B หลังจาก calibrate แล้วเราจะยังคง predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B แค่ด้วยเลขที่เปลี่ยนไป ซึ่งเป็นคุณสมบัติที่ดีงามมากๆในหลายๆ application
 
 มาลอง train calibration model ด้วย python กัน
 
