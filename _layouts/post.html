@@ -2,10 +2,17 @@
 layout: default
 ---
 <style type="text/css">
-  a {
-    word-break: break-all;
+  img {
+      display: block;
+      margin:0 auto;
+      text-align: center;
+  } 
+  .language-mermaid {
+    display: flex;
+    justify-content: center;
   }
 </style>
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -46,3 +53,12 @@ layout: default
   </div>
   
 </article>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ 
+    startOnLoad: true,
+    theme: 'forest'
+  });
+  mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>

@@ -27,6 +27,8 @@ graph LR
 
 ก็เลยมีอีกวิธี คือใช้ [Isotonic Regression](https://en.wikipedia.org/wiki/Isotonic_regression) ที่สามารถ fit กับ probabilty curve หน้าตาหลากหลายกว่า ข้อมูลน้อยๆก็ train ได้ นอกจากนั้นความเท่ก็คือ เนื่องจากมันเป็น monotonic function ดังนั้น ranking ก่อนและหลัง calibrate จะยังเหมือนเดิมเสมอ! เช่น ถ้าก่อน calibrate เรา predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B หลังจาก calibrate แล้วเราจะยังคง predict ว่ารูป A น่าจะเป็นแมวมากกว่า รูป B แค่ด้วยเลขที่เปลี่ยนไป ซึ่งเป็นคุณสมบัติที่ดีงามมากๆในหลายๆ application
 
+มาลอง train calibration model ด้วย python กัน
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,35 +38,27 @@ from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
 from sklearn.isotonic import IsotonicRegression
 
-# 1. Generate synthetic dataset
-X, y = make_classification(n_samples=1000, n_features=5, random_state=42)
+X, y = make_classification(n_samples=3000, n_features=20, random_state=43)
 
-# 2. Split the dataset into training and test sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=43)
 
-# 3. Train SVM model without calibration
-svm = SVC(kernel='linear', probability=True)  # `probability=True` is required for Platt Scaling
+svm = SVC(kernel='linear', probability=True)
 svm.fit(X_train, y_train)
 
-# 4. Apply Platt Scaling using CalibratedClassifierCV
 calibrated_svm_platt = CalibratedClassifierCV(svm, method='sigmoid')
 calibrated_svm_platt.fit(X_train, y_train)
 
-# 5. Apply Isotonic Regression for calibration
-probs_svm = svm.predict_proba(X_test)[:, 1]  # Raw probabilities from SVM model
+calibrated_svm_isotonic = CalibratedClassifierCV(svm, method='isotonic')
+calibrated_svm_isotonic.fit(X_train, y_train)
 
-iso_reg = IsotonicRegression(out_of_bounds='clip')
-probs_isotonic = iso_reg.fit_transform(probs_svm, y_test)  # Fit isotonic regression
+probs_svm = svm.predict_proba(X_test)[:, 1]
+probs_platt = calibrated_svm_platt.predict_proba(X_test)[:, 1]
+probs_isotonic = calibrated_svm_isotonic.predict_proba(X_test)[:, 1]
 
-# 6. Get calibrated probabilities for Platt Scaling
-probs_platt = calibrated_svm_platt.predict_proba(X_test)[:, 1]  # Calibrated probabilities with Platt Scaling
-
-# 7. Compute the calibration curve for all models
 true_probs_svm, predicted_probs_svm = calibration_curve(y_test, probs_svm, n_bins=10)
 true_probs_platt, predicted_probs_platt = calibration_curve(y_test, probs_platt, n_bins=10)
 true_probs_isotonic, predicted_probs_isotonic = calibration_curve(y_test, probs_isotonic, n_bins=10)
 
-# 8. Plot the calibration curves
 plt.figure(figsize=(8, 6))
 plt.plot(predicted_probs_svm, true_probs_svm, marker='o', label="SVM (Raw Probabilities)", color='blue')
 plt.plot(predicted_probs_platt, true_probs_platt, marker='s', label="SVM (Platt Scaling)", color='red')
@@ -77,3 +71,9 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
+
+เราสามารถดูว่า model ของเรา well calibrated หรือเปล่าได้จาก calibration curve โดยจาก predicted proability ทั้งหมดที่เราทายมาเราจะมาแบ่งเป็นกองๆ เช่น แบ่งเป็น 10 กอง 0-0.1, 0.1-0.2, ... แล้วในแต่ละกองเราจะหาค่าเฉลี่ย predicted probability ของกองนั้น เทียบกับค่าเฉลี่ยของ true probability ของกองนั้น โดย ideal calibration curve จะเป็นเส้นตรง 45 องศา
+
+จะเห็นว่า calibration curve ของ model หลัง calirated แล้ว ควรจะเข้าใกล้ diagonal line มากขึ้น
+
+![image](/assets/images/2025-02-22-classification-model-calibration/calibration-curve.png)

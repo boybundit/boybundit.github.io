@@ -36,4 +36,5 @@ categories: programming
 
 Official document ของ Elasticsearch แนะนำให้เราใช้ `fields` เป็นหลักก็เพียงพอแล้ว และใช้ _source ในเคสที่เกิดอยากได้ raw data ส่วน `stored_fields` กับ `docvalue_fields` นั้นเอาไว้ใช้ในเคสที่ต้องการ optimize performance จริงๆจังๆครับ
 
-<https://www.elastic.co/guide/en/elasticsearch/reference/current/search-fields.html>
+# Reference
+- [Search Fields](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-fields.html)

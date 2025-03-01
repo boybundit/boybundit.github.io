@@ -37,5 +37,5 @@ image: /assets/images/2025-02-10-multiple-canonical-models/bounded-contexts.jpg
 ลุง Martin แกแนะนำไว้ว่า Single Canonical Model นั้นไม่น่าเวิก เรามาทำ Multiple Canonical Models กันน่าจะดีกว่า
 
 อ่านเพิ่มเติมได้ที่ blog ของลุงแกครับ
-- <https://martinfowler.com/bliki/BoundedContext.html>
-- <https://martinfowler.com/bliki/MultipleCanonicalModels.html>
+- [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
+- [Multiple Canonical Models](https://martinfowler.com/bliki/MultipleCanonicalModels.html)
