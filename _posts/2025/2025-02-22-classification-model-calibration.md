@@ -74,6 +74,6 @@ plt.show()
 
 เราสามารถดูว่า model ของเรา well calibrated หรือเปล่าได้จาก calibration curve โดยจาก predicted proability ทั้งหมดที่เราทายมาเราจะมาแบ่งเป็นกองๆ เช่น แบ่งเป็น 10 กอง 0-0.1, 0.1-0.2, ... แล้วในแต่ละกองเราจะหาค่าเฉลี่ย predicted probability ของกองนั้น เทียบกับค่าเฉลี่ยของ true probability ของกองนั้น โดย ideal calibration curve จะเป็นเส้นตรง 45 องศา
 
-จะเห็นว่า calibration curve ของ model หลัง calirated แล้ว ควรจะเข้าใกล้ diagonal line มากขึ้น
+โดย calibration curve ของ model หลัง calirated แล้ว ควรจะเข้าใกล้ diagonal line มากขึ้น ([บ้าง 555])
 
 ![image](/assets/images/2025-02-22-classification-model-calibration/calibration-curve.png)
